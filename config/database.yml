@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: string_allocation_production
-  username: string_allocation
-  password: <%= ENV['STRING_ALLOCATION_DATABASE_PASSWORD'] %>
